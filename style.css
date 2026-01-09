@@ -44,3 +44,88 @@
 .nav-btn:hover{
   opacity: 0.9;
 }
+.hero{
+  position: relative;
+  height: 520px;
+  background-image: url("assets/hero-bg.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay{
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+
+.hero-content{
+  position: relative;
+  text-align: center;
+  color: white;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.hero-badge{
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.hero-title{
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero-title span{
+  color: #2f7d5b;
+}
+
+.hero-text{
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+}
+
+.hero-buttons{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.hero-btn{
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-btn img{
+  width: 16px;
+}
+
+.hero-btn.primary{
+  background: #2f7d5b;
+  color: white;
+}
+
+.hero-btn.secondary{
+  border: 2px solid rgba(255,255,255,0.4);
+  color: white;
+}
+
+.hero-btn:hover{
+  opacity: 0.9;
+}
